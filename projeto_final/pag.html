@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Pagamento Online</title>
+    <link rel="stylesheet" href="css/pag.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pagamento Online</h1>
+        
+        <form action="processar_pagamento.php" method="POST">
+            <div class="form-group">
+                <label for="nome-cartao">Nome no cartão:</label>
+                <input type="text" id="nome-cartao" name="nome-cartao" required>
+            </div>
+            <div class="form-group">
+                <label for="numero-cartao">Número do cartão:</label>
+                <input type="text" id="numero-cartao" name="numero-cartao" required>
+            </div>
+            <div class="form-group">
+                <label for="validade-cartao">Validade:</label>
+                <input type="text" id="validade-cartao" name="validade-cartao" required>
+            </div>
+            <div class="form-group">
+                <label for="cvv-cartao">CVV:</label>
+                <input type="password" id="cvv-cartao" name="cvv-cartao" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Realizar Pagamento</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

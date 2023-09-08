@@ -1,0 +1,532 @@
+
+
+body{
+    background-color:rgb(34, 34, 34);
+    color:white;
+    font-family:'Jost', sans-serif;
+    width:1325px;}
+
+
+
+#head{
+    width:100%;
+    height:120px;
+    background-color:#8B0000;
+    text-align:center;
+    padding-bottom:10px;}
+
+
+
+#head img{
+    float:left;
+    width:100px;
+    height:100px;
+    margin-left:50px;
+    padding-top:10px;}
+
+
+
+#head h1{
+    font-size:40px;
+    color: white;
+    font-family:'Jost', sans-serif;
+    margin-right:140px;
+    margin-top:0;
+    margin-bottom:0;
+    padding-top: 10px;}
+
+
+nav{
+    background-color:#8B0000;
+    width:100%;
+    height:50px;
+    margin-right:190px;}
+
+
+nav #menu{
+    margin-right:190px;}
+
+
+nav #menu .nav{
+    display:inline-block;
+    margin: 10px;
+    top: 30px;
+    margin-right:20px;}
+
+
+#menu .nav a{
+    color: white;
+    transition: color 0.3s;
+    text-decoration: none;}
+
+
+#menu .nav:hover a{ 
+    color:#FFD700;}
+
+
+
+
+img{
+    max-width: 100%;
+    height: 358px;}
+
+
+
+main{
+    width: 100%
+    height: 400px;
+    background-color: darkred;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: 'Jost', sans-serif;}
+
+
+
+
+
+/*Seções da página*/
+
+#primeira{
+    background-color:rgb(34, 34, 34);
+    margin-left: 10px;
+    margin-top: 60px;
+    margin-bottom: 10px;}
+
+
+#primeira h2{
+    font-size: 23px;
+    color: white;
+    width: 30%;
+    border: none;
+    margin-top: 22px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    padding-left: 100px;
+    text-align: center;}
+
+
+#primeira p{
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 10px;
+    float: left;
+    font-size: 19px;
+    text-align: left;}
+
+
+#primeira img{
+    width: 500px;
+    height: 280px;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;}
+    
+
+
+#segunda{
+    background-color:rgb(34, 34, 34);
+    margin-left: 10px;
+    margin-top: 60px;
+    margin-bottom: 10px;}
+
+#segunda h2{
+    font-size: 23px;
+    text-align: center;
+}
+
+#segunda h3{
+    font-size: 20px;
+    text-align: center;}
+
+
+.galeria{
+    display:flex;
+    justify-content:space-between;
+    max-width:800px;
+    margin:0 auto;}
+
+
+.produto {
+    width: 30%;
+    text-align: center;}
+
+
+.produto img {
+    max-width: 100%;
+    height: 358px;}
+
+
+.produto.descricao {
+    margin-top: 10px;}
+
+
+.produto h3 {
+    margin: 5px;}
+
+
+.produto p {
+    margin: 5px 0;}
+
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;}
+
+
+.botao:hover {
+    background-color: #45a049;}
+
+
+.rating {
+    display: inline-block;}
+
+
+
+.rating input {
+    display: none;}
+
+
+
+.rating label {
+    font-size: 30px;
+    color: #ccc;
+    cursor: pointer;}
+
+
+
+.rating label:before {
+    content: '\2606';}
+
+
+.rating input:checked ~ label:before{
+    content: '\2605';
+    color: #ffcc00;}
+
+
+
+
+#terceira{
+    background-color:darkred;
+    height: 550px;
+    margin-left: 5px;
+    margin-top: 85px;
+    margin-bottom: 10px;}
+
+
+#terceira h2{
+    padding-top: 22px;
+    font-size:32px;
+    text-align: center;}
+
+
+#terceira h3{
+    font-size: 28px;
+    text-align: left;
+    padding-left: 65px}
+
+
+#terceira img{
+    width: 500px;
+    height: 250px;
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align:left;}
+
+
+
+#terceira p{
+    width: 690px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: right;
+    font-size: 25px;
+    text-align: left;}
+
+
+#receba{
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    line-height: 22px;
+    padding-left: 65px;
+    display: block;
+    text-align:left;}
+
+
+
+
+#quarta{
+    background-color:rgb(34, 34, 34);
+    height: 560px;
+    margin-left: 5px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-left: 98px;}
+
+
+
+
+#quarta  h2{
+    font-size:26px;
+    color: white;
+    width: 30%;
+    border: none;
+    margin-top: 22px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    padding-left: 100px;
+    text-align: left;}
+
+
+#quarta h3{
+    font-size: 42px;
+    text-align: left;}
+
+
+#quarta p{
+    width: 400px;
+    margin-left: 100px;
+    float: left;
+    font-size: 20px;
+    text-align: left;}
+
+
+#quarta iframe{
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 205px;
+    width: 450px;}
+
+/*Avaliação*/
+
+#quinta{
+    background-color:orange;
+    height: 350px;
+    border-top: 5px;
+    margin-left: 5px;
+    padding-left: 80px;}
+
+#quinta h2{
+    border-top: 80px;
+    font-size:26px;
+    color: white;
+    width: 30%;
+    margin-top: 22px;
+    margin-bottom: 5px;
+    line-height: 22px;
+    padding-top: 22px;
+    padding-left: 80px;
+    text-align: left}
+
+#quinta p{
+    width: 400px;
+    margin-left: 50px;
+    float: left;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 5px}
+
+
+
+.avaliacao {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+      align-items: center;
+    }
+
+.avaliacao input {
+      display: none;
+    }
+
+.avaliacao label {
+      font-size: 40px;
+      color: #ccc;
+      cursor: pointer;
+    }
+
+.avaliacao label:before {
+      content: "\2605";
+    }
+
+.avaliacao input:checked ~ label {
+      color: #ffca08;}
+
+
+.comments {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.comment {
+    margin-bottom: 10px;
+}
+
+.comment .rating {
+    display: inline-block;
+}
+
+.comment .star {
+    font-size: 20px;
+    color: #ffcc00;
+}
+
+.comment .text {
+    margin-left: 10px;
+}
+
+#sexta h2{
+    text-align: center;}
+
+#sexta img{
+    border-radius:50%;
+    width: 50px;
+    height: 50px;
+}
+
+form {
+    margin-top: 15px;
+     text-align: center;}
+
+
+textarea {
+    width: 50%;
+    height: 90px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;}
+
+button {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;}
+
+
+/*rodapé*/
+
+
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color:#8B0000;
+    color: white;
+    display: inline-block;}
+
+
+
+footer #links{
+    width: 33%;
+    height: 100%;
+    float: left;
+    font-family: 'Jost', sans-serif;}
+
+
+
+footer #links #institucional{
+    margin-top: 20px;
+    float: left;
+    font-size: 17px;
+    font-weight: bolder;
+    margin-left: 20px;}
+
+
+
+footer #inst{
+    list-style-type: none;
+    float: left;
+    margin-right: 40px;
+    margin-top: 5px;
+    margin-left: 25px;
+    padding: 0 0;}
+
+
+
+footer #empresa{
+    width: 33%;
+    height: 100%;
+    float: left;
+    font-family: 'Jost', sans-serif;}
+
+
+
+footer #empresa #teste{
+    float: left;
+    margin-top: 20px;
+    margin-left: 140px;
+    font-size: 40px;
+    font-family: 'Gruppo', sans-serif;}
+
+
+
+footer #empresa img{
+    float: left;
+    margin-top: 5px;
+    margin-left: 175px;
+    width: 100px;
+    height: 100px;}
+
+
+
+footer #contato{
+    width: 33%;
+    height: 100%;
+    float: left;
+    font-family: 'Jost', sans-serif;}
+
+
+
+footer #contato #atendimento{
+    margin-top: 20px;
+    float: left;
+    font-size: 17px;
+    font-weight: bolder;
+    margin-left: 215px;}
+
+
+
+footer #infos{
+    list-style-type: none;
+    float: left;
+    margin-top: 5px;
+    margin-left: 220px;
+    padding: 0 0;}
+
+
+
+footer #contato #redes{
+    float: left;
+    font-size: 17px;
+    font-weight: bolder;
+    margin-left: 215px;}
+
+
+
+footer #sociais{
+    list-style-type: none;
+    float: left;
+    margin-top: 5px;
+    margin-left: 220px;
+    padding: 0 0;
+    font-size: 17px;}
+
+
+
+footer #sociais li{
+    display: inline-block;}
+
